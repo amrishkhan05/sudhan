@@ -517,6 +517,7 @@ svg {
   fill: none;
   stroke: currentColor;
   stroke-width: 1.9;
+  margin-top: 5px;
 }
 
 .hero-capabilities strong,
