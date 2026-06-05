@@ -1,441 +1,566 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="S.L.K. Suthan portfolio for aerospace engineering leadership, precision systems, and technical project execution."
-    />
-    <title>S.L.K. Suthan | Aerospace Engineering Portfolio</title>
-    <link rel="icon" href="favicon.ico" />
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <header class="site-header" data-elevated="false">
-      <a class="brand" href="#home" aria-label="S.L.K. Suthan home">S.L.K. SUTHAN</a>
-      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
-        <span></span>
-        <span></span>
-      </button>
-      <nav class="site-nav" id="site-nav" aria-label="Primary navigation">
-        <a class="nav-link is-active" href="#home">Home</a>
-        <a class="nav-link" href="#experience">Experience</a>
-        <a class="nav-link" href="#projects">Projects</a>
-        <a class="nav-link" href="#contact">Contact</a>
-        <button class="theme-toggle" type="button" aria-label="Switch to light mode" aria-pressed="false">
-          <svg class="theme-icon sun-icon" viewBox="0 0 24 24" aria-hidden="true">
-            <path d="M12 4V2M12 22v-2M4 12H2M22 12h-2M5.64 5.64 4.22 4.22M19.78 19.78l-1.42-1.42M18.36 5.64l1.42-1.42M4.22 19.78l1.42-1.42M12 8a4 4 0 1 0 0 8 4 4 0 0 0 0-8Z" />
-          </svg>
-          <img class="theme-icon moon-icon" src="assets/moon-dark-theme-svgrepo-com.svg" aria-hidden="true" />
-        </button>
-        <a class="resume-link" href="assets/SLK-SUTHAN-Resume-2026.pdf" download>Resume</a>
-      </nav>
-      <div class="scroll-progress" aria-hidden="true"><span></span></div>
-    </header>
 
-    <main>
-      <section class="hero section-grid" id="home">
-        <div class="hero-grid">
-          <div class="hero-copy">
-            <p class="section-kicker line-kicker">Aerospace Systems Lead</p>
-            <h1>Functional Lead &amp; <span>Aerospace Engineer</span></h1>
-            <p class="hero-text">
-              Functional Lead for aero-engine flow control valve performance analysis,
-              mechanical design, and force margin validation across Rolls-Royce and
-              Parker Aerospace programs.
-            </p>
-            <div class="hero-actions">
-              <a class="btn btn-primary" href="#contact">
-                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h16M14 6l6 6-6 6" /></svg>
-                Initiate Contact
-              </a>
-              <a class="btn btn-secondary" href="#projects">
-                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16v14H4zM8 9h8M8 13h5" /></svg>
-                View Projects
-              </a>
-            </div>
-            <div class="hero-capabilities" aria-label="Engineering capabilities">
-              <article>
-                <span class="capability-icon">
-                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v18M3 12h18M6 6l12 12M18 6 6 18" /></svg>
-                </span>
-                <div>
-                  <strong>Systems Reliability</strong>
-                  <span>Active aerospace programs</span>
-                </div>
-              </article>
-              <article>
-                <span class="capability-icon">
-                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 7h10v10H7zM4 12h3M17 12h3M12 4v3M12 17v3M8.5 8.5 5.8 5.8M15.5 15.5l2.7 2.7M15.5 8.5l2.7-2.7M8.5 15.5l-2.7 2.7" /></svg>
-                </span>
-                <div>
-                  <strong>Mechanical Design</strong>
-                  <span>Precision &amp; performance</span>
-                </div>
-              </article>
-              <article>
-                <span class="capability-icon">
-                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4 4 8l8 4 8-4-8-4ZM4 14l8 4 8-4M4 10l8 4 8-4" /></svg>
-                </span>
-                <div>
-                  <strong>Engineering Leadership</strong>
-                  <span>Cross-functional collaboration</span>
-                </div>
-              </article>
-            </div>
-          </div>
-          <div class="hero-visual" aria-hidden="true">
-            <img
-              class="hero-blueprint-image"
-              src="assets/hero-engine-blueprint.png"
-              alt=""
-              width="2816"
-              height="1536"
-              loading="eager"
-              decoding="async"
-            />
-            <img
-              class="hero-subject-image"
-              src="assets/suthan-portrait-hero.png"
-              alt=""
-              width="880"
-              height="1320"
-              loading="eager"
-              decoding="async"
-            />
-          </div>
-        </div>
-      </section>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="S.L.K. Suthan portfolio for aerospace engineering leadership, precision systems, and technical project execution." />
+  <title>S.L.K. Suthan | Aerospace Engineering Portfolio</title>
+  <link rel="icon" href="favicon.ico" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
 
-      <section class="metric-band" aria-label="Portfolio metrics">
-        <div class="shell metrics">
-          <article>
-            <strong>9+</strong>
-            <span>Years Experience</span>
-          </article>
-          <article>
-            <strong>18+</strong>
-            <span>Engineers Managed</span>
-          </article>
-          <article>
-            <strong>05+</strong>
-            <span>Mission Critical Systems</span>
-          </article>
-        </div>
-      </section>
-
-      <section class="summary-section shell">
-        <div class="summary-copy">
-          <h2>Professional Summary</h2>
-          <p>
-            Functional Lead and Aerospace Engineer with 9+ years of experience in
-            aero-engine systems design, flow control valves, performance modelling, and
-            force margin analysis across Rolls-Royce and Parker Aerospace programs in the
-            UK, Germany, and USA.
-          </p>
-          <p>
-            Extensive background in mechanical design and product definition for pipes,
-            brackets, ducts, sheet metal, and machined components, with expertise in
-            GD&amp;T (ASME Y14.5), Model-Based Definition, valve design, spring selection,
-            and physics-based simulation using MATLAB, Simulink, and Simscape.
-          </p>
-        </div>
-      </section>
-
-      <section class="domains shell" aria-labelledby="domains-title">
-        <p class="section-kicker">Core Expertise</p>
-        <h2 id="domains-title">Strategic Technical Domains</h2>
-        <div class="domain-grid">
-          <article class="domain-card">
-            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M8 8h8M10 16h4M4 4h16v16H4z" /></svg>
-            <h3>Physics-Based Simulation</h3>
-            <p>Physics-based valve performance models integrating fluid dynamics, actuator mechanics, leakage, friction, and force balance.</p>
-            <span>MATLAB</span><span>SIMULINK</span><span>SIMSCAPE</span>
-          </article>
-          <article class="domain-card">
-            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 18 20 6M6 6h12v12M8 14l3 3 6-10" /></svg>
-            <h3>Mechanical Design &amp; GD&amp;T</h3>
-            <p>Product definition for pipes, brackets, ducts, sheet metal, machined parts, PMI, and manufacturing-controlled drawings.</p>
-            <span>NX</span><span>CATIA</span><span>SOLIDWORKS</span>
-          </article>
-          <article class="domain-card">
-            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v18M5 7h14M5 17h14M7 7l5-4 5 4M7 17l5 4 5-4" /></svg>
-            <h3>Valve Design &amp; Optimization</h3>
-            <p>Anti-icing and flow control valve redesign, spring preload optimization, compact packaging, and performance improvement.</p>
-            <span>FBD</span><span>GD&amp;T</span><span>MBD</span>
-          </article>
-        </div>
-      </section>
-
-      <section class="experience section-grid" id="experience">
-        <div class="shell">
-          <p class="section-kicker line-kicker">Aerospace Leadership</p>
-          <h2>Experience &amp; Engineering Leadership</h2>
-          <p class="section-intro">
-            High-stakes engineering delivery across TCS, Parker Aerospace, and Rolls-Royce
-            programs. Specialized in performance modeling, valve design, product definition,
-            delegated checking, and multi-disciplinary technical leadership.
-          </p>
-
-          <div class="timeline">
-            <article class="timeline-card right">
-              <time>May 2026 - Present</time>
-              <div class="card-panel">
-                <h3>Tata Consultancy Services</h3>
-                <p class="meta">Bangalore | Client: Parker Aerospace</p>
-                <h4>Functional Lead - Performance Analysis</h4>
-                <ul>
-                  <li>Leading a team of 8 engineers in performance modeling and force margin analysis of aero-engine flow control valves.</li>
-                  <li>Defined engineering methodology, estimation guidelines, and modeling practices for performance analysis.</li>
-                  <li>Technical reviewer for models, calculations, validation reports, and customer-facing documentation.</li>
-                </ul>
-                <div class="tag-row"><span>MATLAB</span><span>SIMULINK</span><span>SIMSCAPE</span></div>
-              </div>
-            </article>
-            <article class="timeline-card left">
-              <time>Jan 2024 - Aug 2025</time>
-              <div class="card-panel">
-                <h3>Tata Consultancy Services</h3>
-                <p class="meta">Client: Parker Aerospace</p>
-                <h4>Design Leadership</h4>
-                <ul>
-                  <li>Led a team of 10 engineers on 2D to 3D model conversion and product definition using SolidWorks.</li>
-                  <li>Redesigned anti-icing and flow control valves for weight reduction, compact geometry, and improved packaging efficiency.</li>
-                  <li>Performed spring design calculations covering stiffness selection, preload optimization, and force alignment.</li>
-                </ul>
-                <div class="tag-row"><span>SolidWorks</span><span>Valve Design</span><span>ASME</span></div>
-              </div>
-            </article>
-            <article class="timeline-card right">
-              <time>Dec 2016 - Dec 2023</time>
-              <div class="card-panel">
-                <h3>Rolls-Royce</h3>
-                <p class="meta">United Kingdom &amp; Germany</p>
-                <h4>Product Definition Delegated Checker | Onsite Co-ordinator | Design Engineer</h4>
-                <ul>
-                  <li>Verified and approved engine external pipes and bracket models/drawings with full compliance to GD&amp;T, fit, form, function, and manufacturability.</li>
-                  <li>Coordinated between customer and offshore team of 12 engineers for fleet modification programs.</li>
-                  <li>Designed and product-defined routed pipes, sheet metal, machined brackets, ducts, castings, fairings, and solution drawings using NX.</li>
-                </ul>
-                <div class="tag-row"><span>NX Unigraphics</span><span>MBD</span><span>GD&amp;T</span></div>
-              </div>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section class="impact-band">
-        <div class="shell">
-          <h2>Operational Impact</h2>
-          <div class="impact-grid">
-            <article><strong>12+</strong><span>Engineers Coordinated</span><p>Customer and offshore coordination for Rolls-Royce fleet modification programs.</p></article>
-            <article><strong>10+</strong><span>Engineers Led</span><p>Design leadership for Parker Aerospace product definition and valve optimization workstreams.</p></article>
-            <article><strong>03</strong><span>Global Programs</span><p>Program execution across UK, Germany, and USA aerospace portfolios.</p></article>
-          </div>
-        </div>
-      </section>
-
-      <section class="projects section-grid" id="projects">
-        <div class="shell">
-          <div class="portfolio-hero card-panel">
-            <p class="section-kicker">Technical Portfolio</p>
-            <h2>Precision Engineering &amp;<br />Systems Optimization</h2>
-            <p>
-              Strategic execution of aero-engine valve design, performance analysis,
-              product definition, and engine externals programs for Parker Aerospace and
-              Rolls-Royce.
-            </p>
-          </div>
-
-          <div class="section-heading-row">
-            <h2>Key Projects</h2>
-            <span></span>
-          </div>
-          <div class="project-grid">
-            <article class="project-card large">
-              <div class="project-top"><span>Parker Aerospace</span><svg viewBox="0 0 24 24"><path d="M12 2v20M8 6l4-4 4 4M8 18l4 4 4-4" /></svg></div>
-              <h3>Flow Control Valve Design &amp; Performance Analysis</h3>
-              <p>High-fidelity MATLAB, Simulink, and Simscape models for valve performance, mass flow, pressure drop, actuator mechanics, leakage paths, and full-stroke force margin analysis.</p>
-              <div class="tag-row"><span>Simulation</span><span>Fluid Dynamics</span><span>Optimization</span></div>
-            </article>
-            <article class="project-card">
-              <div class="project-top"><span>Parker Aerospace</span><svg viewBox="0 0 24 24"><path d="M12 2v20M2 12h20M5 5l14 14M19 5 5 19" /></svg></div>
-              <h3>Anti-Icing Valve Optimization</h3>
-              <p>Redesigned anti-icing and flow control valves for weight reduction, compact geometry, improved packaging efficiency, and spring preload alignment.</p>
-              <a href="#contact">View Details <span>-></span></a>
-            </article>
-            <article class="project-card">
-              <div class="project-top"><span>Rolls Royce Germany</span><svg viewBox="0 0 24 24"><path d="M12 3 3 8l9 5 9-5-9-5ZM3 16l9 5 9-5M3 12l9 5 9-5" /></svg></div>
-              <h3>Fleet Modification</h3>
-              <p>Customer and offshore coordination for design definition reports, fleet modification delivery, and controls-team engineering releases.</p>
-            </article>
-            <article class="project-card">
-              <div class="project-top"><span>Rolls Royce Germany</span><svg viewBox="0 0 24 24"><path d="m14 7 3-3 3 3-3 3M4 20l7-7M11 13l2 2 7-7M4 4l6 6" /></svg></div>
-              <h3>Engine Rebuild Components</h3>
-              <p>Designed and reviewed BR710 engine external components for rebuild programs while maintaining rigorous OEM standards.</p>
-            </article>
-            <article class="project-card">
-              <div class="project-top"><span>Rolls Royce DE &amp; UK</span><svg viewBox="0 0 24 24"><path d="M12 4v16M4 12h16M6 6l12 12M18 6 6 18" /></svg></div>
-              <h3>Engine Externals System</h3>
-              <p>Product definition for routed pipes, sheet metal, machined brackets, ducts, castings, fairings, and harness form-board basics.</p>
-            </article>
-          </div>
-
-          <div class="competency-grid">
-            <div class="competency-copy">
-              <p class="section-kicker">Core Competencies</p>
-              <h2>Force Margin Analysis &amp; Performance Modelling</h2>
-              <div class="competency-list">
-                <article>
-                  <h3>Force Margin Analysis</h3>
-                  <p>First-principles force balance calculations covering pressure forces, spring preload, stiffness, static and dynamic seal friction, and actuator forces.</p>
-                  <p>Free Body Diagrams for valve components, full-stroke force margin evaluation, and worst-case checks for temperature and pressure limits.</p>
-                </article>
-                <article>
-                  <h3>Performance Modelling &amp; Simulation</h3>
-                  <p>Multi-domain models integrating fluid dynamics, mechanical actuation, orifice-based compressible/incompressible flow, and Cv/Cd discharge relationships.</p>
-                  <p>Structured workflow from input study and model development through debugging, validation, technical reports, user guides, and validation summaries.</p>
-                </article>
-              </div>
-            </div>
-          </div>
-
-          <div class="workflow-panel" aria-label="Modeling and validation workflow">
-            <div class="workflow-heading">
-              <p class="section-kicker">Modeling Workflow</p>
-              <h3>Modeling &amp; Validation Workflow</h3>
-              <p>
-                A structured performance-analysis path from source inputs through validated
-                models, technical reports, user guides, and customer-ready summaries.
-              </p>
-            </div>
-            <ol class="workflow-steps">
-              <li>Input Study</li>
-              <li>Model Development</li>
-              <li>Debugging</li>
-              <li>Validation</li>
-              <li>Documentation</li>
-            </ol>
-            <div class="workflow-card-grid">
-              <article><span>01</span><strong>Fluid Dynamics</strong><p>Mass flow, pressure drop, orifice equations, and Cv/Cd discharge relationships.</p></article>
-              <article><span>02</span><strong>Actuator Mechanics</strong><p>Piston and poppet kinematics with full-stroke actuator response characteristics.</p></article>
-              <article><span>03</span><strong>Leakage &amp; Friction</strong><p>Seal stiction, Coulomb and viscous friction, leakage paths, and internal clearances.</p></article>
-              <article><span>04</span><strong>Force Balance</strong><p>Pressure forces, spring preload, stiffness, seal friction, and actuator force margins.</p></article>
-              <article><span>05</span><strong>Boundary Conditions</strong><p>Pressure, temperature, flow envelope, fluid properties, and operating assumptions.</p></article>
-              <article><span>06</span><strong>Solver Setup</strong><p>Solver configuration for stability, convergence control, and repeatable validation.</p></article>
-            </div>
-          </div>
-
-          <div class="ecosystem">
-            <h2>Technical Skills</h2>
-            <p>Focused skills from aero-engine performance modeling, mechanical design, product definition, and engine externals programs.</p>
-            <div class="ecosystem-grid">
-              <div>
-                <h3>Simulation and Analysis</h3>
-                <div class="tool-list"><span>MATLAB</span><span>Simulink</span><span>Simscape</span></div>
-              </div>
-              <div>
-                <h3>CAD and Design</h3>
-                <div class="tool-list"><span>NX Unigraphics</span><span>CATIA V5</span><span>SolidWorks</span><span>AutoCAD</span></div>
-              </div>
-              <div>
-                <h3>Engineering Expertise</h3>
-                <div class="tag-row"><span>Physics-Based Performance Modeling</span><span>Force Margin Analysis</span><span>Free Body Diagrams</span><span>GD&amp;T (ASME Y14.5)</span><span>Model-Based Definition</span></div>
-              </div>
-              <div>
-                <h3>Domain Knowledge</h3>
-                <div class="tag-row"><span>Aero Engines</span><span>Flow Control Valves</span><span>Actuation Systems</span><span>Engine Externals</span></div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="achievements section-grid" id="contact">
-        <div class="shell">
-          <p class="section-kicker">Portfolio &amp; Contact</p>
-          <h2>Distinguished Achievements<br />&amp; Strategic Access</h2>
-          <p class="section-intro">A record of aerospace delivery recognition, technical training, certifications, and engineering leadership.</p>
-
-          <h3 class="block-title">Professional Achievements</h3>
-          <div class="achievement-grid">
-            <article class="achievement-card wide"><span>Premier Award</span><h4>Star of the Decade 2019-2020</h4><p>Recognized by Tata Consultancy Services for sustained contribution, delivery excellence, and engineering leadership.</p></article>
-            <article class="achievement-card"><h4>Puzzle Piece Recognition</h4><p>Awarded by the Director of Business Aviation and Chairman, Rolls-Royce Germany, for DDR release on the Pearl 15 program.</p></article>
-            <article class="achievement-card full"><h4>Certificates of Appreciation</h4><p>Recognized by Rolls-Royce component engineering leadership for complex design brackets and by TCS/Parker Aerospace leadership for outstanding support on the Selector Valve design project.</p></article>
-            <article class="achievement-card full"><h4>Additional Recognition</h4><p>Star of the Month, three On the Spot awards, Applause Award, and Service and Commitment Award from Tata Consultancy Services.</p></article>
-          </div>
-
-          <div class="credential-panel">
-            <div>
-              <h3>Certifications</h3>
-              <article><h4>MathWorks Certification</h4><p>Certified exposure to Simscape fluid systems and physical systems for simulation-led engineering workflows.</p></article>
-              <article><h4>Professional Foundations</h4><p>Agile way of working experience, Innovation &amp; Creativity Foundation, and Team Skills Foundation.</p></article>
-            </div>
-            <div>
-              <h3>Training Delivery</h3>
-              <p>Delivered training on GD&amp;T and Model-Based Definition, mentored new engineers on Rolls-Royce standards and aerospace engineering practices, and established team-level best practices in modeling and analysis workflows.</p>
-              <div class="tag-row"><span>GD&amp;T Training</span><span>MBD Facilitation</span><span>Rolls-Royce Standards</span><span>Workflow Best Practices</span></div>
-            </div>
-          </div>
-
-          <div class="academic">
-            <h3>Academic Record</h3>
-            <table>
-              <thead><tr><th>Level / Degree</th><th>Institution / Board</th><th>Score / CGPA</th></tr></thead>
-              <tbody>
-                <tr><td>M.Tech in Design Engineering</td><td>BITS Pilani (WILP)</td><td>Expected 2027</td></tr>
-                <tr><td>B.E. Mechanical Engineering</td><td>Easwari Engineering College, Chennai</td><td>8.6 CGPA</td></tr>
-                <tr><td>Higher Secondary Education (HSE)</td><td>D.V.D Higher Secondary School, Kanyakumari</td><td>92.8%</td></tr>
-                <tr><td>SSLC</td><td>St. Tresa's Matriculation Higher Secondary School, Kanyakumari</td><td>88.6%</td></tr>
-              </tbody>
-            </table>
-          </div>
-
-          <div class="contact-panel card-panel">
-            <div>
-              <h2>Get in Touch</h2>
-              <p>Open to technical leadership roles, engineering consultancy, and aerospace partnerships.</p>
-              <dl>
-                <div><dt>Email</dt><dd><a href="mailto:suthan.95slk@gmail.com">suthan.95slk@gmail.com</a></dd></div>
-                <div><dt>Phone</dt><dd><a href="tel:+919003698836">+91 90036 98836</a></dd></div>
-              </dl>
-            </div>
-            <div class="resume-actions" aria-label="Resume actions">
-              <a class="btn btn-primary" href="assets/SLK-SUTHAN-Resume-2026.pdf" download>
-                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12M7 10l5 5 5-5M5 21h14" /></svg>
-                Download Resume
-              </a>
-              <a class="btn btn-secondary" href="assets/SLK-SUTHAN-Resume-2026.pdf" target="_blank" rel="noopener">
-                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16v14H4zM8 9h8M8 13h8M8 17h5" /></svg>
-                View Resume
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
-    </main>
-
-    <button class="back-to-top" type="button" aria-label="Back to top">
-      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M6 11l6-6 6 6" /></svg>
+<body>
+  <header class="site-header" data-elevated="false">
+    <a class="brand" href="#home" aria-label="S.L.K. Suthan home">S.L.K. SUTHAN</a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+      <span></span>
+      <span></span>
     </button>
+    <nav class="site-nav" id="site-nav" aria-label="Primary navigation">
+      <a class="nav-link is-active" href="#home">Home</a>
+      <a class="nav-link" href="#experience">Experience</a>
+      <a class="nav-link" href="#projects">Projects</a>
+      <a class="nav-link" href="#contact">Contact</a>
+      <button class="theme-toggle" type="button" aria-label="Switch to light mode" aria-pressed="false">
+        <svg class="theme-icon sun-icon" viewBox="0 0 24 24" aria-hidden="true">
+          <path
+            d="M12 4V2M12 22v-2M4 12H2M22 12h-2M5.64 5.64 4.22 4.22M19.78 19.78l-1.42-1.42M18.36 5.64l1.42-1.42M4.22 19.78l1.42-1.42M12 8a4 4 0 1 0 0 8 4 4 0 0 0 0-8Z" />
+        </svg>
+        <img class="theme-icon moon-icon" src="assets/moon-dark-theme-svgrepo-com.svg" aria-hidden="true" />
+      </button>
+      <a class="resume-link" href="assets/SLK-SUTHAN-Resume-2026.pdf" download>Resume</a>
+    </nav>
+    <div class="scroll-progress" aria-hidden="true"><span></span></div>
+  </header>
 
-    <footer class="site-footer">
-      <div class="shell footer-grid">
-        <div>
-          <strong>S.L.K. SUTHAN</strong>
-          <p>Precision Engineering &amp; Aerospace Leadership Portfolio.</p>
+  <main>
+    <section class="hero section-grid" id="home">
+      <div class="hero-grid">
+        <div class="hero-copy">
+          <p class="section-kicker line-kicker">Aerospace Systems Lead</p>
+          <h1>Functional Lead &amp; <span>Aerospace Engineer</span></h1>
+          <p class="hero-text">
+            Functional Lead for aero-engine flow control valve performance analysis,
+            mechanical design, and force margin validation across Rolls-Royce and
+            Parker Aerospace programs.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#contact">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M4 12h16M14 6l6 6-6 6" />
+              </svg>
+              Initiate Contact
+            </a>
+            <a class="btn btn-secondary" href="#projects">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M4 5h16v14H4zM8 9h8M8 13h5" />
+              </svg>
+              View Projects
+            </a>
+          </div>
+          <div class="hero-capabilities" aria-label="Engineering capabilities">
+            <article>
+              <span class="capability-icon">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M12 3v18M3 12h18M6 6l12 12M18 6 6 18" />
+                </svg>
+              </span>
+              <div>
+                <strong>Systems Reliability</strong>
+                <span>Active aerospace programs</span>
+              </div>
+            </article>
+            <article>
+              <span class="capability-icon">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path
+                    d="M7 7h10v10H7zM4 12h3M17 12h3M12 4v3M12 17v3M8.5 8.5 5.8 5.8M15.5 15.5l2.7 2.7M15.5 8.5l2.7-2.7M8.5 15.5l-2.7 2.7" />
+                </svg>
+              </span>
+              <div>
+                <strong>Mechanical Design</strong>
+                <span>Precision &amp; performance</span>
+              </div>
+            </article>
+            <article>
+              <span class="capability-icon">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M12 4 4 8l8 4 8-4-8-4ZM4 14l8 4 8-4M4 10l8 4 8-4" />
+                </svg>
+              </span>
+              <div>
+                <strong>Engineering Leadership</strong>
+                <span>Cross-functional collaboration</span>
+              </div>
+            </article>
+          </div>
         </div>
-        <nav aria-label="Footer navigation">
-          <a href="mailto:suthan.95slk@gmail.com">Email</a>
-          <a href="tel:+919003698836">Phone</a>
-          <a href="#contact">LinkedIn</a>
-          <a href="assets/SLK-SUTHAN-Resume-2026.pdf" target="_blank" rel="noopener">Resume</a>
-        </nav>
-        <p>&copy; 2024 S.L.K. Suthan. All Rights Reserved.</p>
+        <div class="hero-visual" aria-hidden="true">
+          <img class="hero-blueprint-image" src="assets/hero-engine-blueprint.png" alt="" width="2816" height="1536"
+            loading="eager" decoding="async" />
+          <img class="hero-subject-image" src="assets/suthan-portrait-hero.png" alt="" width="880" height="1320"
+            loading="eager" decoding="async" />
+        </div>
       </div>
-    </footer>
+    </section>
 
-    <script src="script.js"></script>
-  </body>
+    <section class="metric-band" aria-label="Portfolio metrics">
+      <div class="shell metrics">
+        <article>
+          <strong>9+</strong>
+          <span>Years Experience</span>
+        </article>
+        <article>
+          <strong>18+</strong>
+          <span>Engineers Managed</span>
+        </article>
+        <article>
+          <strong>05+</strong>
+          <span>Mission Critical Systems</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="summary-section shell">
+      <div class="summary-copy">
+        <h2>Professional Summary</h2>
+        <p>
+          Functional Lead and Aerospace Engineer with 9+ years of experience in
+          aero-engine systems design, flow control valves, performance modelling, and
+          force margin analysis across Rolls-Royce and Parker Aerospace programs in the
+          UK, Germany, and USA.
+        </p>
+        <p>
+          Extensive background in mechanical design and product definition for pipes,
+          brackets, ducts, sheet metal, and machined components, with expertise in
+          GD&amp;T (ASME Y14.5), Model-Based Definition, valve design, spring selection,
+          and physics-based simulation using MATLAB, Simulink, and Simscape.
+        </p>
+      </div>
+    </section>
+
+    <section class="domains shell" aria-labelledby="domains-title">
+      <p class="section-kicker">Core Expertise</p>
+      <h2 id="domains-title">Strategic Technical Domains</h2>
+      <div class="domain-grid">
+        <article class="domain-card">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M5 12h14M8 8h8M10 16h4M4 4h16v16H4z" />
+          </svg>
+          <h3>Physics-Based Simulation</h3>
+          <p>Physics-based valve performance models integrating fluid dynamics, actuator mechanics, leakage, friction,
+            and force balance.</p>
+          <span>MATLAB</span><span>SIMULINK</span><span>SIMSCAPE</span>
+        </article>
+        <article class="domain-card">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M4 18 20 6M6 6h12v12M8 14l3 3 6-10" />
+          </svg>
+          <h3>Mechanical Design &amp; GD&amp;T</h3>
+          <p>Product definition for pipes, brackets, ducts, sheet metal, machined parts, PMI, and
+            manufacturing-controlled drawings.</p>
+          <span>NX</span><span>CATIA</span><span>SOLIDWORKS</span>
+        </article>
+        <article class="domain-card">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M12 3v18M5 7h14M5 17h14M7 7l5-4 5 4M7 17l5 4 5-4" />
+          </svg>
+          <h3>Valve Design &amp; Optimization</h3>
+          <p>Anti-icing and flow control valve redesign, spring preload optimization, compact packaging, and performance
+            improvement.</p>
+          <span>FBD</span><span>GD&amp;T</span><span>MBD</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="experience section-grid" id="experience">
+      <div class="shell">
+        <p class="section-kicker line-kicker">Aerospace Leadership</p>
+        <h2>Experience &amp; Engineering Leadership</h2>
+        <p class="section-intro">
+          High-stakes engineering delivery across TCS, Parker Aerospace, and Rolls-Royce
+          programs. Specialized in performance modeling, valve design, product definition,
+          delegated checking, and multi-disciplinary technical leadership.
+        </p>
+
+        <div class="timeline">
+          <article class="timeline-card right">
+            <time>May 2026 - Present</time>
+            <div class="card-panel">
+              <h3>Tata Consultancy Services</h3>
+              <p class="meta">Bangalore | Client: Parker Aerospace</p>
+              <h4>Functional Lead - Performance Analysis</h4>
+              <ul>
+                <li>Leading a team of 8 engineers in performance modeling and force margin analysis of aero-engine flow
+                  control valves.</li>
+                <li>Defined engineering methodology, estimation guidelines, and modeling practices for performance
+                  analysis.</li>
+                <li>Technical reviewer for models, calculations, validation reports, and customer-facing documentation.
+                </li>
+              </ul>
+              <div class="tag-row"><span>MATLAB</span><span>SIMULINK</span><span>SIMSCAPE</span></div>
+            </div>
+          </article>
+          <article class="timeline-card left">
+            <time>Jan 2024 - Aug 2025</time>
+            <div class="card-panel">
+              <h3>Tata Consultancy Services</h3>
+              <p class="meta">Client: Parker Aerospace</p>
+              <h4>Design Leadership</h4>
+              <ul>
+                <li>Led a team of 10 engineers on 2D to 3D model conversion and product definition using SolidWorks.
+                </li>
+                <li>Redesigned anti-icing and flow control valves for weight reduction, compact geometry, and improved
+                  packaging efficiency.</li>
+                <li>Performed spring design calculations covering stiffness selection, preload optimization, and force
+                  alignment.</li>
+              </ul>
+              <div class="tag-row"><span>SolidWorks</span><span>Valve Design</span><span>ASME</span></div>
+            </div>
+          </article>
+          <article class="timeline-card right">
+            <time>Dec 2016 - Dec 2023</time>
+            <div class="card-panel">
+              <h3>Rolls-Royce</h3>
+              <p class="meta">United Kingdom &amp; Germany</p>
+              <h4>Product Definition Delegated Checker | Onsite Co-ordinator | Design Engineer</h4>
+              <ul>
+                <li>Verified and approved engine external pipes and bracket models/drawings with full compliance to
+                  GD&amp;T, fit, form, function, and manufacturability.</li>
+                <li>Coordinated between customer and offshore team of 12 engineers for fleet modification programs.</li>
+                <li>Designed and product-defined routed pipes, sheet metal, machined brackets, ducts, castings,
+                  fairings, and solution drawings using NX.</li>
+              </ul>
+              <div class="tag-row"><span>NX Unigraphics</span><span>MBD</span><span>GD&amp;T</span></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="impact-band">
+      <div class="shell">
+        <h2>Operational Impact</h2>
+        <div class="impact-grid">
+          <article><strong>12+</strong><span>Engineers Coordinated</span>
+            <p>Customer and offshore coordination for Rolls-Royce fleet modification programs.</p>
+          </article>
+          <article><strong>10+</strong><span>Engineers Led</span>
+            <p>Design leadership for Parker Aerospace product definition and valve optimization workstreams.</p>
+          </article>
+          <article><strong>03</strong><span>Global Programs</span>
+            <p>Program execution across UK, Germany, and USA aerospace portfolios.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects section-grid" id="projects">
+      <div class="shell">
+        <div class="portfolio-hero card-panel">
+          <p class="section-kicker">Technical Portfolio</p>
+          <h2>Precision Engineering &amp;<br />Systems Optimization</h2>
+          <p>
+            Strategic execution of aero-engine valve design, performance analysis,
+            product definition, and engine externals programs for Parker Aerospace and
+            Rolls-Royce.
+          </p>
+        </div>
+
+        <div class="section-heading-row">
+          <h2>Key Projects</h2>
+          <span></span>
+        </div>
+        <div class="project-grid">
+          <article class="project-card large">
+            <div class="project-top"><span>Parker Aerospace</span><svg viewBox="0 0 24 24">
+                <path d="M12 2v20M8 6l4-4 4 4M8 18l4 4 4-4" />
+              </svg></div>
+            <h3>Flow Control Valve Design &amp; Performance Analysis</h3>
+            <p>High-fidelity MATLAB, Simulink, and Simscape models for valve performance, mass flow, pressure drop,
+              actuator mechanics, leakage paths, and full-stroke force margin analysis.</p>
+            <div class="tag-row"><span>Simulation</span><span>Fluid Dynamics</span><span>Optimization</span></div>
+          </article>
+          <article class="project-card">
+            <div class="project-top"><span>Parker Aerospace</span><svg viewBox="0 0 24 24">
+                <path d="M12 2v20M2 12h20M5 5l14 14M19 5 5 19" />
+              </svg></div>
+            <h3>Anti-Icing Valve Optimization</h3>
+            <p>Redesigned anti-icing and flow control valves for weight reduction, compact geometry, improved packaging
+              efficiency, and spring preload alignment.</p>
+            <a href="#contact">View Details <span>-></span></a>
+          </article>
+          <article class="project-card">
+            <div class="project-top"><span>Rolls Royce Germany</span><svg viewBox="0 0 24 24">
+                <path d="M12 3 3 8l9 5 9-5-9-5ZM3 16l9 5 9-5M3 12l9 5 9-5" />
+              </svg></div>
+            <h3>Fleet Modification</h3>
+            <p>Customer and offshore coordination for design definition reports, fleet modification delivery, and
+              controls-team engineering releases.</p>
+          </article>
+          <article class="project-card">
+            <div class="project-top"><span>Rolls Royce Germany</span><svg viewBox="0 0 24 24">
+                <path d="m14 7 3-3 3 3-3 3M4 20l7-7M11 13l2 2 7-7M4 4l6 6" />
+              </svg></div>
+            <h3>Engine Rebuild Components</h3>
+            <p>Designed and reviewed BR710 engine external components for rebuild programs while maintaining rigorous
+              OEM standards.</p>
+          </article>
+          <article class="project-card">
+            <div class="project-top"><span>Rolls Royce DE &amp; UK</span><svg viewBox="0 0 24 24">
+                <path d="M12 4v16M4 12h16M6 6l12 12M18 6 6 18" />
+              </svg></div>
+            <h3>Engine Externals System</h3>
+            <p>Product definition for routed pipes, sheet metal, machined brackets, ducts, castings, fairings, and
+              harness form-board basics.</p>
+          </article>
+        </div>
+
+        <div class="competency-grid">
+          <div class="competency-copy">
+            <p class="section-kicker">Core Competencies</p>
+            <h2>Force Margin Analysis &amp; Performance Modelling</h2>
+            <div class="competency-list">
+              <article>
+                <h3>Force Margin Analysis</h3>
+                <p>First-principles force balance calculations covering pressure forces, spring preload, stiffness,
+                  static and dynamic seal friction, and actuator forces.</p>
+                <p>Free Body Diagrams for valve components, full-stroke force margin evaluation, and worst-case checks
+                  for temperature and pressure limits.</p>
+              </article>
+              <article>
+                <h3>Performance Modelling &amp; Simulation</h3>
+                <p>Multi-domain models integrating fluid dynamics, mechanical actuation, orifice-based
+                  compressible/incompressible flow, and Cv/Cd discharge relationships.</p>
+                <p>Structured workflow from input study and model development through debugging, validation, technical
+                  reports, user guides, and validation summaries.</p>
+              </article>
+            </div>
+          </div>
+        </div>
+
+        <div class="workflow-panel" aria-label="Modeling and validation workflow">
+          <div class="workflow-heading">
+            <p class="section-kicker">Modeling Workflow</p>
+            <h3>Modeling &amp; Validation Workflow</h3>
+            <p>
+              A structured performance-analysis path from source inputs through validated
+              models, technical reports, user guides, and customer-ready summaries.
+            </p>
+          </div>
+          <ol class="workflow-steps">
+            <li>Input Study</li>
+            <li>Model Development</li>
+            <li>Debugging</li>
+            <li>Validation</li>
+            <li>Documentation</li>
+          </ol>
+          <div class="workflow-card-grid">
+            <article><span>01</span><strong>Fluid Dynamics</strong>
+              <p>Mass flow, pressure drop, orifice equations, and Cv/Cd discharge relationships.</p>
+            </article>
+            <article><span>02</span><strong>Actuator Mechanics</strong>
+              <p>Piston and poppet kinematics with full-stroke actuator response characteristics.</p>
+            </article>
+            <article><span>03</span><strong>Leakage &amp; Friction</strong>
+              <p>Seal stiction, Coulomb and viscous friction, leakage paths, and internal clearances.</p>
+            </article>
+            <article><span>04</span><strong>Force Balance</strong>
+              <p>Pressure forces, spring preload, stiffness, seal friction, and actuator force margins.</p>
+            </article>
+            <article><span>05</span><strong>Boundary Conditions</strong>
+              <p>Pressure, temperature, flow envelope, fluid properties, and operating assumptions.</p>
+            </article>
+            <article><span>06</span><strong>Solver Setup</strong>
+              <p>Solver configuration for stability, convergence control, and repeatable validation.</p>
+            </article>
+          </div>
+        </div>
+
+        <div class="ecosystem">
+          <h2>Technical Skills</h2>
+          <p>Focused skills from aero-engine performance modeling, mechanical design, product definition, and engine
+            externals programs.</p>
+          <div class="ecosystem-grid">
+            <div>
+              <h3>Simulation and Analysis</h3>
+              <div class="tool-list"><span>MATLAB</span><span>Simulink</span><span>Simscape</span></div>
+            </div>
+            <div>
+              <h3>CAD and Design</h3>
+              <div class="tool-list"><span>NX Unigraphics</span><span>CATIA
+                  V5</span><span>SolidWorks</span><span>AutoCAD</span></div>
+            </div>
+            <div>
+              <h3>Engineering Expertise</h3>
+              <div class="tag-row"><span>Physics-Based Performance Modeling</span><span>Force Margin
+                  Analysis</span><span>Free Body Diagrams</span><span>GD&amp;T (ASME Y14.5)</span><span>Model-Based
+                  Definition</span></div>
+            </div>
+            <div>
+              <h3>Domain Knowledge</h3>
+              <div class="tag-row"><span>Aero Engines</span><span>Flow Control Valves</span><span>Actuation
+                  Systems</span><span>Engine Externals</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="achievements section-grid" id="contact">
+      <div class="shell">
+        <p class="section-kicker">Portfolio &amp; Contact</p>
+        <h2>Distinguished Achievements<br />&amp; Strategic Access</h2>
+        <p class="section-intro">A record of aerospace delivery recognition, technical training, certifications, and
+          engineering leadership.</p>
+
+        <h3 class="block-title">Professional Achievements</h3>
+        <div class="achievement-grid">
+          <article class="achievement-card wide"><span>Premier Award</span>
+            <h4>Star of the Decade 2019-2020</h4>
+            <p>Recognized by Tata Consultancy Services for sustained contribution, delivery excellence, and engineering
+              leadership.</p>
+          </article>
+          <article class="achievement-card">
+            <h4>Puzzle Piece Recognition</h4>
+            <p>Awarded by the Director of Business Aviation and Chairman, Rolls-Royce Germany, for DDR release on the
+              Pearl 15 program.</p>
+          </article>
+          <article class="achievement-card full">
+            <h4>Certificates of Appreciation</h4>
+            <p>Recognized by Rolls-Royce component engineering leadership for complex design brackets and by TCS/Parker
+              Aerospace leadership for outstanding support on the Selector Valve design project.</p>
+          </article>
+          <article class="achievement-card full">
+            <h4>Additional Recognition</h4>
+            <p>Star of the Month, three On the Spot awards, Applause Award, and Service and Commitment Award from Tata
+              Consultancy Services.</p>
+          </article>
+        </div>
+
+        <div class="credential-panel">
+          <div>
+            <h3>Certifications</h3>
+            <article>
+              <h4>MathWorks Certification</h4>
+              <p>Certified exposure to Simscape fluid systems and physical systems for simulation-led engineering
+                workflows.</p>
+            </article>
+            <article>
+              <h4>Professional Foundations</h4>
+              <p>Agile way of working experience, Innovation &amp; Creativity Foundation, and Team Skills Foundation.
+              </p>
+            </article>
+          </div>
+          <div>
+            <h3>Training Delivery</h3>
+            <p>Delivered training on GD&amp;T and Model-Based Definition, mentored new engineers on Rolls-Royce
+              standards and aerospace engineering practices, and established team-level best practices in modeling and
+              analysis workflows.</p>
+            <div class="tag-row"><span>GD&amp;T Training</span><span>MBD Facilitation</span><span>Rolls-Royce
+                Standards</span><span>Workflow Best Practices</span></div>
+          </div>
+        </div>
+
+        <div class="academic">
+          <h3>Academic Record</h3>
+          <table>
+            <thead>
+              <tr>
+                <th>Level / Degree</th>
+                <th>Institution / Board</th>
+                <th>Score / CGPA</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>M.Tech in Design Engineering</td>
+                <td>BITS Pilani (WILP)</td>
+                <td>Expected 2027</td>
+              </tr>
+              <tr>
+                <td>B.E. Mechanical Engineering</td>
+                <td>Easwari Engineering College, Chennai</td>
+                <td>8.6 CGPA</td>
+              </tr>
+              <tr>
+                <td>Higher Secondary Education (HSE)</td>
+                <td>D.V.D Higher Secondary School, Kanyakumari</td>
+                <td>92.8%</td>
+              </tr>
+              <tr>
+                <td>SSLC</td>
+                <td>St. Tresa's Matriculation Higher Secondary School, Kanyakumari</td>
+                <td>88.6%</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="contact-panel card-panel">
+          <div>
+            <h2>Get in Touch</h2>
+            <p>Open to technical leadership roles, engineering consultancy, and aerospace partnerships.</p>
+            <dl>
+              <div>
+                <dt>Email</dt>
+                <dd><a href="mailto:suthan.95slk@gmail.com">suthan.95slk@gmail.com</a></dd>
+              </div>
+              <div>
+                <dt>Phone</dt>
+                <dd><a href="tel:+919003698836">+91 90036 98836</a></dd>
+              </div>
+              <div>
+                <dt>LinkedIn</dt>
+                <dd><a href="https://www.linkedin.com/in/suthan-slk-3a6b2b215/">
+                    suthan-slk</a></dd>
+              </div>
+            </dl>
+          </div>
+          <div class="resume-actions" aria-label="Resume actions">
+            <a class="btn btn-primary" href="assets/SLK-SUTHAN-Resume-2026.pdf" download>
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M12 3v12M7 10l5 5 5-5M5 21h14" />
+              </svg>
+              Download Resume
+            </a>
+            <a class="btn btn-secondary" href="assets/SLK-SUTHAN-Resume-2026.pdf" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M4 5h16v14H4zM8 9h8M8 13h8M8 17h5" />
+              </svg>
+              View Resume
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <button class="back-to-top" type="button" aria-label="Back to top">
+    <svg viewBox="0 0 24 24" aria-hidden="true">
+      <path d="M12 19V5M6 11l6-6 6 6" />
+    </svg>
+  </button>
+
+  <footer class="site-footer">
+    <div class="shell footer-grid">
+      <div>
+        <strong>S.L.K. SUTHAN</strong>
+        <p>Precision Engineering &amp; Aerospace Leadership Portfolio.</p>
+      </div>
+      <nav aria-label="Footer navigation">
+        <a href="mailto:suthan.95slk@gmail.com">Email</a>
+        <a href="tel:+919003698836">Phone</a>
+        <a href="#contact">LinkedIn</a>
+        <a href="assets/SLK-SUTHAN-Resume-2026.pdf" target="_blank" rel="noopener">Resume</a>
+      </nav>
+      <p>&copy; 2024 S.L.K. Suthan. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
 </html>
