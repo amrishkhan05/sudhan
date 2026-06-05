@@ -1428,7 +1428,7 @@ dd {
 
   .hero-subject-image {
     right: 50%;
-    bottom: -24px;
+    bottom: -74px;
     width: min(360px, 70vw);
     transform: translateX(50%);
   }
