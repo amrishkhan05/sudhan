@@ -1277,24 +1277,73 @@ td {
   letter-spacing: -0.04em;
 }
 
-dl {
+.contact-methods {
   display: grid;
-  gap: 28px;
-  margin: 48px 0 0;
+  gap: 12px;
+  margin-top: 34px;
 }
 
-dt {
-  color: var(--faint);
-  font-size: 0.7rem;
+.contact-card {
+  display: grid;
+  grid-template-columns: 52px minmax(0, 1fr);
+  align-items: center;
+  gap: 14px;
+  min-height: 76px;
+  padding: 12px 14px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: var(--panel-bg-soft);
+  color: var(--text);
+  transition: border-color 180ms ease, transform 180ms ease, background 180ms ease;
+}
+
+.contact-card:hover {
+  border-color: var(--line-strong);
+  background: var(--panel-bg);
+  transform: translateY(-1px);
+}
+
+.contact-icon {
+  display: grid;
+  place-items: center;
+  width: 48px;
+  height: 48px;
+  overflow: hidden;
+  border: 1px solid rgba(94, 212, 253, 0.28);
+  border-radius: 8px;
+  background: rgba(94, 212, 253, 0.08);
+}
+
+.contact-icon img {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+  border-radius: 4px;
+}
+
+.contact-card strong,
+.contact-card em {
+  display: block;
+  min-width: 0;
+}
+
+.contact-card strong {
+  color: var(--cyan);
+  font-size: 0.72rem;
+  font-style: normal;
   font-weight: 900;
-  letter-spacing: 0.13em;
+  letter-spacing: 0.12em;
   text-transform: uppercase;
 }
 
-dd {
-  margin: 6px 0 0;
-  font-size: 1.28rem;
-  font-weight: 700;
+.contact-card em {
+  margin-top: 4px;
+  color: var(--text);
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 760;
+  line-height: 1.25;
+  overflow-wrap: anywhere;
 }
 
 .resume-actions {
@@ -1429,7 +1478,8 @@ dd {
 
   .hero-subject-image {
     right: 50%;
-    bottom: -74px;
+    top: 0;
+    bottom: auto;
     width: min(360px, 70vw);
     transform: translateX(50%);
   }
@@ -1534,7 +1584,8 @@ dd {
 
   .hero-subject-image {
     right: 50%;
-    bottom: -30px;
+    top: 0;
+    bottom: auto;
     display: block;
     width: min(292px, 76vw);
     transform: translateX(50%);
@@ -1592,9 +1643,6 @@ dd {
     font-size: 0.78rem;
   }
 
-  dd {
-    font-size: 1rem;
-  }
 }
 
 @media (prefers-reduced-motion: reduce) {
